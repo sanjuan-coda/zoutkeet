@@ -1,0 +1,47 @@
+h1 {
+    color:#035a2a;
+    font-family: 'Playfair-Black';
+    font-size: 2em;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+body {
+    background-image: url(images/background_home.jpg);
+    font-family:'Playfair-Regular';
+}
+
+ul {
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+nav ul img{
+    width: 80px;
+    background-color: blue;
+}
+section p {
+    margin-bottom: em;
+    padding: 2em;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'Playfair-Black';
+    src: url(fonts/PlayfairDisplay-Black.ttf);
+}
+@font-face {
+    font-family: 'Playfair-Regular';
+    src: url(fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'Playfair-Bold';
+    src: url(fonts/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: 'Potsdam';
+    src: url(fonts/Potsdam.ttf);
+}
