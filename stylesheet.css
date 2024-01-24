@@ -10,7 +10,7 @@ h1 {
 }
 h2{
     font-family: 'Playfair-Bold';
-    color: #f8f8f8;
+    color: #f8f4f1;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -26,8 +26,7 @@ body {
     font-family:'Playfair-Regular';
     color: #f8f4f1;
 }
-
-nav ul{
+nav ul {
     display: flex;
 }
 ul li {
@@ -35,6 +34,8 @@ ul li {
     text-decoration: none;
     display: flex;
     width: 75px;
+    background-color: #f8f4f1;
+    color: #035a2a;
 }
 nav ul img {
     width: 75px;
@@ -43,7 +44,19 @@ nav ul img {
 }
 section p {
     justify-content: center;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
+}
+a {
+    font-family: 'Playfair-Bold';
+    color: #f8f4f1;
+}
+iframe{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    padding: 0px 20px 0px 20px; 
+    margin: 0em 0em 3em 0em;
 }
 img {
     width: 70%;
@@ -52,14 +65,13 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .button {
     background-color: #f8f4f1;
     display: block;
     color: #035a2a;
     border-radius: 20px;
     padding: 10px 20px;
-    margin: 0 5em 2em 5em;
+    margin: 0 5em 1em 5em;
     font-size: 21px;
     text-align: center;
     justify-content: center;
@@ -74,8 +86,8 @@ img {
     box-shadow:0 3px #01170b;
     transform: translateY(4px);
 }
-
-@font-face {
+/* Custom font inladen */
+@font-face { 
     font-family: 'Playfair-Black';
     src: url(fonts/PlayfairDisplay-Black.ttf);
 }
